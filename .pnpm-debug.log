@@ -1,0 +1,65 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "vue-naive-admin-docs",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "D:\\Code\\vue-press\\vue-naive-admin-docs"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "D:\\.pnpm-store\\v3",
+    "virtualStoreDir": "D:\\Code\\vue-press\\vue-naive-admin-docs\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "D:\\Code\\vue-press\\vue-naive-admin-docs",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ENOTFOUND",
+      "code": "ENOTFOUND",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.npm.dg.com/vuepress"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ENOTFOUND",
+      "code": "ENOTFOUND",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.npm.dg.com/vuepress"
+  },
+  "6 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://r.npm.dg.com/vuepress: request to https://r.npm.dg.com/vuepress failed, reason: getaddrinfo ENOTFOUND r.npm.dg.com",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://r.npm.dg.com/vuepress: request to https://r.npm.dg.com/vuepress failed, reason: getaddrinfo ENOTFOUND r.npm.dg.com\n    at RetryOperation._fn (C:\\Users\\Ronnie\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.32.1\\node_modules\\pnpm\\dist\\pnpm.cjs:85672:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}
