@@ -1,7 +1,7 @@
 import { defineConfig } from 'vuepress/config'
 
 export default defineConfig({
-  base: '/docs/',
+  base: '/vue-naive-admin-docs/',
   locales: {
     '/': {
       lang: 'zh-CN',
