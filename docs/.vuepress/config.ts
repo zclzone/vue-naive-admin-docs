@@ -41,6 +41,7 @@ export default defineConfig({
         { title: '项目配置', path: '/guide/项目配置' },
         { title: '工具封装', path: '/guide/工具封装' },
         { title: '路由和权限', path: '/guide/路由和权限' },
+        { title: '项目规范', path: '/guide/项目规范' },
       ]
     }
   },
