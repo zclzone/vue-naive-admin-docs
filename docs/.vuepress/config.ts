@@ -33,6 +33,8 @@ export default defineConfig({
           { text: 'Gitee', link: 'https://gitee.com/zclzone/vue-naive-admin' },
         ]
       },
+      { text: '关于', link: '/about/' },
+
     ],
     sidebar: {
       '/guide/': [
